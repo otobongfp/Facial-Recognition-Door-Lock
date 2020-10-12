@@ -115,4 +115,5 @@ async def server_stop(app, loop):
 if __name__ == "__main__":
 
     app.static('/', './index')
-    app.run(host='0.0.0.0', port='80')
+    app.run(host='0.0.0.0', port='8080') #server starts at a port you choose, either 8080 or 5050 etc
+
